@@ -6,7 +6,7 @@ namespace DiffRepoSample
         {
             var builder = WebApplication.CreateBuilder(args);
             var app2 = builder.Build();
-            app2.MapGet("/", () => "Hello World!");
+            var x23 = 10;
 
             app2.Run();
         }
