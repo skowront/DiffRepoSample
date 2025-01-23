@@ -1,3 +1,4 @@
+using System;
 namespace DiffRepoSample
 {
     public class Program
