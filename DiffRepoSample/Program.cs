@@ -5,11 +5,11 @@ namespace DiffRepoSample
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            var app = builder.Build();
-            var x2 = 10;
-            app.MapGet("/", () => "Hello World!");
+            var app2 = builder.Build();
+            var x23 = 10;
+            app2.MapGet("/", () => "Hello World!");
 
-            app.Run();
+            app2.Run();
         }
     }
 }
